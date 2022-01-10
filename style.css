@@ -1,8 +1,37 @@
 .parent{
     display: flex;
+    width: 80%;
     padding: 10px;
-    border: 2px;
-    margin: 2px;
-    justify-content: flex-start;
-    font-size: 35px;
+    justify-content: space-between ;
+    font-size: 25px;
+    color: darkblue;
+
 }
+h1{
+    text-align: center;
+    color: darkred;
+    font-size: 45px;
+}
+table{
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: x-large;
+   
+}
+td, th{
+    border: 1px solid rgb(189, 189, 189);
+    text-align: left;
+    padding: 10px;
+   
+}
+.headline{
+    font-weight: 900;
+    background-color: rgb(165, 148, 148);
+}
+tr:nth-child(even){
+    background-color: rgb(223, 220, 220);
+}
+/* tr:nth-child(even){
+    background-color: rgb(207, 205, 205);
+} */
