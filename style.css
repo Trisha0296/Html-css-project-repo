@@ -2,9 +2,16 @@
     display: flex;
     width: 80%;
     padding: 10px;
-    justify-content: space-between ;
+    /* justify-content: space-between ; */
     font-size: 25px;
     color: darkblue;
+    align-items: center;
+   
+    margin-left: 500px;
+
+}
+.right-side{
+    margin-left: 35px;
 
 }
 h1{
